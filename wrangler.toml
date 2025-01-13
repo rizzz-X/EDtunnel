@@ -2,7 +2,22 @@ name = "cf-worker-ws-dev"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
-workers_dev = true
+workers_dev = false
+[[routes]]
+pattern = "kntl.kapioo.us.kg"
+custom_domain = true
+
+[[routes]]
+pattern = "support.vidio.com.kntl.kapioo.us.kg"
+custom_domain = true
+
+[[routes]]
+pattern = "support.zoom.us.kntl.kapioo.us.kg"
+custom_domain = true
+
+[[routes]]
+pattern = "zoomgov.com.kntl.kapioo.us.kg"
+custom_domain = true
 
 [vars]
 # PROXYIP = "211.230.110.231:50008"
